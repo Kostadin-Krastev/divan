@@ -1,0 +1,31 @@
+html,
+body,
+main,
+img,
+p,
+span,
+nav,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Background image and size of the home page */
+html,
+body,
+main {
+  min-height: 100%;
+}
+
+main {
+  min-height: 100%;
+  background-image: url(../images/Home-page/banner-HP.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
