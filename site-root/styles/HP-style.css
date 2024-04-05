@@ -1,6 +1,5 @@
 html,
 body,
-main,
 img,
 p,
 span,
@@ -18,12 +17,11 @@ li {
 
 /* Background image and size of the home page */
 html,
-body,
-main {
+body {
   min-height: 100%;
 }
 
-main {
+body {
   min-height: 100%;
   background: #bbb4b0 url(../images/Home-page/banner-HP.jpg);
   background-size: cover;
