@@ -4,14 +4,38 @@ body {
 }
 
 /* -----HOME PAGE SECTION----- */
-#home {
+h1 {
+  position: absolute;
+  top: 67dvh;
+  left: 33dvw;
+  font-family: "CoolveticaRg-Regular V2";
+  font-size: 3.3em;
+  color: black;
+}
+.background {
+  position: relative;
   height: 100dvh;
-  width: 100dvw; /*how to remove side-scrolling*/
-  background: #fff url(./images/Home-page/banner-HP.png);
+  background: rgba(255, 255, 255, 0.1) url(./images/Home-page/banner-HP.jpg);
+  background-size: 100dvw 100dvh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.4;
+}
+
+.big-logo-home-page {
+  position: absolute;
+  top: 21dvh;
+  left: 35dvw;
+}
+
+.small-banner-home-page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 3em solid #f47321;
 }
 
 /* -----TOP MENU----- */
-@import url(https://db.onlinewebfonts.com/c/b60ffa5ac0a8e99a0e8e765ded1cccf4?family=CoolveticaRg-Regular+V2);
 .top-menu {
   position: fixed;
   width: 100dvw;
