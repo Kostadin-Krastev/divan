@@ -1,0 +1,30 @@
+html,
+body {
+  font-family: "Ariel", "sans-serif";
+}
+
+/* -----HOME PAGE SECTION----- */
+#home {
+  height: 100dvh;
+  width: 100dvw; /*how to remove side-scrolling*/
+  background: #fff url(./images/Home-page/banner-HP.png);
+}
+
+/* -----TOP MENU----- */
+.top-menu {
+  position: fixed;
+  width: 100dvw;
+  z-index: 1000;
+}
+
+.top-menu,
+.menu-item,
+.menu-links {
+  display: inline-block;
+  bottom: 6dvh;
+  text-decoration: none;
+  font-size: 1.25em;
+  text-align: center;
+  color: #fff;
+  background-color: #f47321;
+}
