@@ -11,6 +11,7 @@ body {
 }
 
 /* -----TOP MENU----- */
+@import url(https://db.onlinewebfonts.com/c/b60ffa5ac0a8e99a0e8e765ded1cccf4?family=CoolveticaRg-Regular+V2);
 .top-menu {
   position: fixed;
   width: 100dvw;
@@ -25,6 +26,12 @@ body {
   text-decoration: none;
   font-size: 1.25em;
   text-align: center;
+
   color: #fff;
   background-color: #f47321;
+}
+
+.menu-links {
+  padding: 0.2em 2em;
+  font-family: "CoolveticaRg-Regular V2";
 }
