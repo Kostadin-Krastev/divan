@@ -6,16 +6,16 @@ body {
 /* ----- HOME PAGE SECTION ----- */
 h1 {
   position: absolute;
-  top: 64dvh;
-  left: 28dvw;
+  top: 64svh;
+  left: 28svw;
   font-size: 3.3rem;
   color: black;
 }
 .background {
   position: relative;
-  height: 100dvh;
+  height: 100svh;
   background: #fff url(./images/Home-page/banner-HP.jpg);
-  background-size: 100dvw 100dvh;
+  background-size: 100svw 100svh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 0.4;
@@ -23,25 +23,25 @@ h1 {
 
 .big-logo-home-page {
   position: absolute;
-  top: 17dvh;
-  left: 27dvw;
-  height: 46dvh;
-  width: 25dvw;
+  top: 17svh;
+  left: 27svw;
+  height: 46svh;
+  width: 25svw;
 }
 
 .small-banner-home-page {
   position: absolute;
   top: 0;
   right: 0;
-  height: 65dvh;
-  width: 38dvw;
-  border-left: 3.2dvw solid #f47321;
+  height: 65svh;
+  width: 38svw;
+  border-left: 3.2svw solid #f47321;
 }
 
 /* ----- TOP MENU ----- */
 .top-menu {
   position: fixed;
-  width: 100dvw;
+  width: 100svw;
   z-index: 1000;
 }
 
@@ -49,7 +49,7 @@ h1 {
 .menu-item,
 .menu-links {
   display: inline-block;
-  bottom: 6dvh;
+  bottom: 6svh;
   text-decoration: none;
   font-size: 1.25em;
   text-align: center;
@@ -73,12 +73,12 @@ h1 {
 }
 
 .news-heading-slogan {
-  padding-bottom: 0.4dvh;
+  padding-bottom: 0.4svh;
   font-size: 2em;
 }
 
 .news-heading,
 .news-heading-slogan {
   text-align: right;
-  padding-right: 4dvw;
+  padding-right: 4svw;
 }
