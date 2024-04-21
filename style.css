@@ -1,21 +1,20 @@
 html,
 body {
-  font-family: "Ariel", "sans-serif";
+  font-family: "CoolveticaRg-Regular V2", "Ariel", "sans-serif";
 }
 
-/* -----HOME PAGE SECTION----- */
+/* ----- HOME PAGE SECTION ----- */
 h1 {
   position: absolute;
-  top: 67dvh;
-  left: 33dvw;
-  font-family: "CoolveticaRg-Regular V2";
-  font-size: 3.3em;
+  top: 64dvh;
+  left: 28dvw;
+  font-size: 3.3rem;
   color: black;
 }
 .background {
   position: relative;
   height: 100dvh;
-  background: rgba(255, 255, 255, 0.1) url(./images/Home-page/banner-HP.jpg);
+  background: #fff url(./images/Home-page/banner-HP.jpg);
   background-size: 100dvw 100dvh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -24,18 +23,22 @@ h1 {
 
 .big-logo-home-page {
   position: absolute;
-  top: 21dvh;
-  left: 35dvw;
+  top: 17dvh;
+  left: 27dvw;
+  height: 46dvh;
+  width: 25dvw;
 }
 
 .small-banner-home-page {
   position: absolute;
   top: 0;
   right: 0;
-  border-left: 3em solid #f47321;
+  height: 65dvh;
+  width: 38dvw;
+  border-left: 3.2dvw solid #f47321;
 }
 
-/* -----TOP MENU----- */
+/* ----- TOP MENU ----- */
 .top-menu {
   position: fixed;
   width: 100dvw;
@@ -57,5 +60,25 @@ h1 {
 
 .menu-links {
   padding: 0.2em 2em;
-  font-family: "CoolveticaRg-Regular V2";
+}
+
+/* ----- NEWS PAGE SECTION ----- */
+.news-header {
+  background-color: #f47321;
+}
+
+.news-heading {
+  font-size: 4em;
+  color: #fff;
+}
+
+.news-heading-slogan {
+  padding-bottom: 0.4dvh;
+  font-size: 2em;
+}
+
+.news-heading,
+.news-heading-slogan {
+  text-align: right;
+  padding-right: 4dvw;
 }
