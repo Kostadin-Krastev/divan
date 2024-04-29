@@ -8,7 +8,7 @@ h1 {
   position: absolute;
   top: 64svh;
   left: 28svw;
-  font-size: 3.3rem;
+  font-size: clamp(1rem, 4.1rem, 5rem);
   color: black;
 }
 .background {
@@ -38,30 +38,43 @@ h1 {
   border-left: 3.2svw solid #f47321;
 }
 
-/* ----- TOP MENU ----- */
-.top-menu {
+/* ----- MAIN MENU ----- */
+.main-menu {
   position: fixed;
   width: 100svw;
   z-index: 1000;
 }
 
-.top-menu,
+.main-menu,
 .menu-item,
 .menu-links {
   display: inline-block;
   bottom: 6svh;
-  text-decoration: none;
   font-size: 1.25em;
   text-align: center;
-
   color: #fff;
   background-color: #f47321;
 }
 
-.menu-links {
+.menu-links:link {
   padding: 0.2em 2em;
+  text-decoration: none;
 }
 
+/* .menu-links:visited {
+  color: #fff;
+  background-color: #000;
+} */
+
+.menu-links:hover {
+  color: #f47321;
+  background-color: #fff;
+}
+
+.menu-links:active {
+  color: #fff;
+  background-color: #000;
+}
 /* ----- NEWS PAGE SECTION ----- */
 .news-header {
   background-color: #f47321;
@@ -81,4 +94,13 @@ h1 {
 .news-heading-slogan {
   text-align: right;
   padding-right: 4svw;
+}
+
+/*----- SERVICES PAGE SECTION ----- */
+.services {
+  background-color: #f47321;
+}
+
+.small-logo-services-section {
+  color: #fff;
 }
