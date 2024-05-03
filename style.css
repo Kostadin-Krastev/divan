@@ -38,6 +38,41 @@ h1 {
   border-left: 3.2svw solid #f47321;
 }
 
+/* all pages headings */
+.news-heading,
+.aboutUs-heading,
+.services-heading,
+.gallery-heading,
+.contact-heading {
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #f47321;
+}
+
+/* all pages slogans */
+.news-heading,
+.aboutUs-heading,
+.services-heading,
+.gallery-heading,
+.contact-heading,
+.news-heading-slogan,
+.aboutUs-slogan,
+.services-slogan,
+.gallery-slogan,
+.contact-slogan {
+  text-align: right;
+  padding-right: 4svw;
+}
+
+.news-heading-slogan,
+.aboutUs-slogan,
+.services-slogan,
+.gallery-slogan,
+.contact-slogan {
+  padding-bottom: 0.4svh;
+  font-size: 2em;
+}
+
 /* ----- MAIN MENU ----- */
 .main-menu {
   position: fixed;
@@ -81,26 +116,98 @@ h1 {
 }
 
 .news-heading {
-  font-size: 4em;
   color: #fff;
+  margin-bottom: -1svh;
 }
 
-.news-heading-slogan {
-  padding-bottom: 0.4svh;
-  font-size: 2em;
+.img-article1-news,
+.img-article3-news {
+  border-right: 2.5em solid #f47321;
+  border-bottom: 2.5em solid #f47321;
 }
 
-.news-heading,
-.news-heading-slogan {
-  text-align: right;
-  padding-right: 4svw;
+.img-article2-news {
+  margin-right: 8svw;
+  border-left: 2.5em solid #f47321;
+  border-bottom: 2.5em solid #f47321;
 }
 
-/*----- SERVICES PAGE SECTION ----- */
-.services {
+.title-article1-news,
+.title-article2-news,
+.title-article3-news {
+  font-size: 2.5em;
+  color: #fff;
   background-color: #f47321;
 }
 
-.small-logo-services-section {
-  color: #fff;
+.paragraph-article1-news,
+.paragraph-article2-news,
+.paragraph-article3-news {
+  font-size: 1.2rem;
+  color: #0e0e0e;
+}
+
+.link-article1-news,
+.link-article2-news,
+.link-article3-news {
+  color: #f47321;
+}
+
+/* positioning article images, headings and paragraphs */
+/* .img-article1-news {
+  position: relative;
+  top: 8svh;
+  left: 8svw;
+}
+
+.title-article1-news {
+  position: relative;
+  top: -25.1svh;
+  left: 25.6svw;
+}
+
+.paragraph-article1-news {
+  position: relative;
+  top: -6svh;
+  left: 20svw;
+  white-space: normal;
+} */
+
+/* article with flexbox */
+/* .article2-news,
+.title-article2-news,
+.paragraph-article2-news {
+  display: flex;
+}
+
+.title-article2-news,
+.paragraph-article2-news {
+  flex-direction: row;
+} */
+
+/* ----- ABOUT US PAGE SECTION ----- */
+.background-aboutUs {
+  background: #fff url(./images/AboutUs/the-team-divan-com.jpg);
+  height: 100svh;
+  background-size: 100svw 100svh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0 auto;
+  opacity: 0.6;
+}
+
+/*----- SERVICES PAGE SECTION ----- */
+.services-heading,
+.services-slogan {
+  position: relative;
+  top: 7svh;
+  background-color: #fff;
+}
+
+.img-services {
+  position: flex;
+}
+
+.services {
+  background-color: #f47321;
 }
