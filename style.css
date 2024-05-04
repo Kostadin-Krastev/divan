@@ -111,6 +111,12 @@ h1 {
   background-color: #000;
 }
 /* ----- NEWS PAGE SECTION ----- */
+.News {
+  width: 100svw;
+  height: 100svh;
+  position: relative;
+}
+
 .news-header {
   background-color: #f47321;
 }
@@ -145,6 +151,7 @@ h1 {
 .paragraph-article3-news {
   font-size: 1.2rem;
   color: #0e0e0e;
+  text-wrap: balance;
 }
 
 .link-article1-news,
@@ -154,37 +161,43 @@ h1 {
 }
 
 /* positioning article images, headings and paragraphs */
-/* .img-article1-news {
+.article1-news,
+.article2-news,
+.article3-news {
   position: relative;
-  top: 8svh;
-  left: 8svw;
+}
+
+.img-article1-news,
+.title-article1-news,
+.paragraph-article1-news,
+.title-article2-news,
+.paragraph-article2-news,
+.img-article2-news,
+.img-article3-news,
+.title-article3-news,
+.paragraph-article3-news {
+  position: absolute;
+}
+
+.img-article1-news {
+  top: -20 svh;
+  left: 10svw;
 }
 
 .title-article1-news {
-  position: relative;
-  top: -25.1svh;
+  top: 10svh;
   left: 25.6svw;
 }
 
 .paragraph-article1-news {
-  position: relative;
-  top: -6svh;
-  left: 20svw;
-  white-space: normal;
-} */
-
-/* article with flexbox */
-/* .article2-news,
-.title-article2-news,
-.paragraph-article2-news {
-  display: flex;
+  top: 15svh;
+  left: 26svw;
 }
 
-.title-article2-news,
-.paragraph-article2-news {
-  flex-direction: row;
-} */
-
+.small-logo-news-section {
+  position: relative;
+  left: 10;
+}
 /* ----- ABOUT US PAGE SECTION ----- */
 .background-aboutUs {
   background: #fff url(./images/AboutUs/the-team-divan-com.jpg);
