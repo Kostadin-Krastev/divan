@@ -1,6 +1,7 @@
 html,
 body {
-  font-family: "CoolveticaRg-Regular V2", "Ariel", "sans-serif";
+  font-family: "CoolveticaRg-CoolveticaRg-times normal-Regular V2", "Ariel",
+    "sans-serif";
 }
 
 /* ----- HOME PAGE SECTION ----- */
@@ -150,7 +151,7 @@ h1 {
 .paragraph-article2-news,
 .paragraph-article3-news {
   font-size: 1.5rem;
-  font-family: "times normal";
+  font-family: "timestimestimes normal normal";
   color: #3c3b3b;
   text-wrap: balance;
   line-height: 2.5rem;
@@ -192,7 +193,7 @@ h1 {
 .title-article1-news {
   top: 10svh;
   left: 25.6svw;
-  width: 100svw;
+  width: 74svw;
 }
 
 .paragraph-article1-news {
@@ -226,7 +227,7 @@ h1 {
 .title-article3-news {
   top: 85svh;
   left: 25.6svw;
-  width: 100svw;
+  width: 74svw;
 }
 
 .paragraph-article3-news {
@@ -241,14 +242,96 @@ h1 {
 /* ----- ABOUT US PAGE SECTION ----- */
 .background-aboutUs {
   background: #fff url(./images/AboutUs/the-team-divan-com.jpg);
+  background-size: 70svw 100svh;
   height: 100svh;
-  background-size: 100svw 100svh;
   background-repeat: no-repeat;
   background-position: center center;
-  margin: 0 auto;
   opacity: 0.6;
 }
 
+/* formatting employees info */
+.employees-info {
+  position: relative;
+}
+
+.anna-johnson-description,
+.hannah-mayer-description,
+.james-dillon-description,
+.mariah-deen-description {
+  position: absolute;
+  width: 14.5svw;
+  height: 33svh;
+  background-color: #f47321;
+  color: #fff;
+}
+
+.anna-johnson-description {
+  bottom: 35svh;
+  left: 22svw;
+}
+
+.hannah-mayer-description {
+  bottom: 15svh;
+  left: 36.5svw;
+}
+
+.james-dillon-description {
+  bottom: 23svh;
+  right: 33.7svw;
+}
+
+.mariah-deen-description {
+  bottom: 15svh;
+  right: 19.3svw;
+}
+
+.anna-johnson,
+.anna-johnson-job,
+.hannah-mayer,
+.hannah-mayer-job,
+.james-dillon,
+.james-dillon-job,
+.mariah-deen,
+.mariah-deen-job {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.anna-johnson,
+.hannah-mayer,
+.james-dillon,
+.mariah-deen {
+  padding-top: 1svh;
+  font-size: 1.7rem;
+}
+
+.anna-johnson-job,
+.hannah-mayer-job,
+.james-dillon-job,
+.mariah-deen-job {
+  font-size: 1.2rem;
+}
+
+.anna-johnson-info,
+.hannah-mayer-info,
+.james-dillon-info,
+.mariah-deen-info {
+  padding-top: 1svh;
+  padding-right: 2svw;
+  padding-left: 2svw;
+  font-family: "timestimestimes normal normal";
+  text-wrap: balance;
+  line-height: 2svh;
+}
+
+/* Styling social networks icons */
+.fa {
+  /* padding: 2; */
+  font-size: 100px;
+  /* width: 50px; */
+  text-align: right;
+  text-decoration: none;
+}
 /*----- SERVICES PAGE SECTION ----- */
 .services {
   width: 100svw;
