@@ -113,7 +113,7 @@ h1 {
 /* ----- NEWS PAGE SECTION ----- */
 .News {
   width: 100svw;
-  height: 100svh;
+  height: 143svh;
   position: relative;
 }
 
@@ -149,9 +149,11 @@ h1 {
 .paragraph-article1-news,
 .paragraph-article2-news,
 .paragraph-article3-news {
-  font-size: 1.2rem;
-  color: #0e0e0e;
+  font-size: 1.5rem;
+  font-family: "times normal";
+  color: #3c3b3b;
   text-wrap: balance;
+  line-height: 2.5rem;
 }
 
 .link-article1-news,
@@ -165,6 +167,9 @@ h1 {
 .article2-news,
 .article3-news {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .img-article1-news,
@@ -180,13 +185,14 @@ h1 {
 }
 
 .img-article1-news {
-  top: -20 svh;
+  top: 10svh;
   left: 10svw;
 }
 
 .title-article1-news {
   top: 10svh;
   left: 25.6svw;
+  width: 100svw;
 }
 
 .paragraph-article1-news {
@@ -194,9 +200,43 @@ h1 {
   left: 26svw;
 }
 
+.img-article2-news {
+  top: 47svh;
+  right: 5svw;
+}
+
+.title-article2-news {
+  top: 47svh;
+  right: 60svh;
+  width: 100svw;
+  text-align: right;
+}
+
+.paragraph-article2-news {
+  top: 53svh;
+  right: 27svw;
+  padding-left: 2svw;
+}
+
+.img-article3-news {
+  top: 85svh;
+  left: 10svw;
+}
+
+.title-article3-news {
+  top: 85svh;
+  left: 25.6svw;
+  width: 100svw;
+}
+
+.paragraph-article3-news {
+  top: 91svh;
+  left: 26svw;
+}
+
 .small-logo-news-section {
-  position: relative;
-  left: 10;
+  position: absolute;
+  bottom: 0;
 }
 /* ----- ABOUT US PAGE SECTION ----- */
 .background-aboutUs {
@@ -210,17 +250,131 @@ h1 {
 }
 
 /*----- SERVICES PAGE SECTION ----- */
-.services-heading,
-.services-slogan {
+.services {
+  width: 100svw;
+  height: 100svh;
+  position: relative;
+  background-color: #f47321;
+}
+
+.services-header {
   position: relative;
   top: 7svh;
   background-color: #fff;
 }
 
-.img-services {
-  position: flex;
+.title-furniture-design,
+.title-own-design,
+.title-restoration,
+.title-delivery {
+  position: absolute;
+  font-size: 1.3rem;
+  color: #fff;
 }
 
-.services {
+.furniture-design,
+.own-design,
+.restoration,
+.delivery {
+  position: absolute;
+}
+
+.furniture-design {
+  top: 26svh;
+  left: 30svw;
+}
+
+.own-design {
+  top: 26svh;
+  left: 60svw;
+}
+
+.restoration {
+  left: 30svw;
+  bottom: 22svh;
+}
+
+.delivery {
+  left: 60svw;
+  bottom: 22svh;
+}
+
+.title-furniture-design {
+  top: 49svh;
+  left: 31.3svw;
+}
+
+.title-own-design {
+  top: 49svh;
+  right: 30svw;
+}
+
+.title-restoration {
+  left: 30.1svw;
+  bottom: 18svh;
+}
+
+.title-delivery {
+  right: 31.5svw;
+  bottom: 18svh;
+}
+
+.small-logo-services-section {
+  position: absolute;
+  bottom: 0.5svh;
+}
+
+/* ----- GALLERY PAGE SECTION ----- */
+.gallery-header {
+  margin-top: 7svh;
   background-color: #f47321;
+}
+
+.gallery-heading {
+  color: #fff;
+}
+
+/* positioning and formatting gallery headings */
+.gallery h3 {
+  font-size: 2rem;
+  color: #f47321;
+  position: relative;
+}
+
+.chairs-heading {
+  top: 7svh;
+  left: 10svw;
+}
+
+.tables-heading {
+  top: 10svh;
+  left: 10svw;
+}
+
+.sofas-heading {
+  top: 10svh;
+  left: 10svw;
+}
+
+.beds-heading {
+  top: 10svh;
+  left: 10svw;
+}
+
+/* positioning gallery photos and adding borders */
+.chairs,
+.tables,
+.sofas,
+.beds {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10svh;
+}
+
+.chairs img,
+.tables img,
+.sofas img,
+.beds img {
+  border-right: 1svw solid #f47321;
+  border-bottom: 1.9svh solid #f47321;
 }
