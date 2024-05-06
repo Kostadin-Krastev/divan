@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "CoolveticaRg-Regular+V2", "Ariel", "sans-serif";
+  font-family: "CoolveticaRg-Regular V2", "Ariel", "sans-serif";
 }
 
 /* ----- HOME PAGE SECTION ----- */
@@ -258,8 +258,8 @@ h1 {
 .james-dillon-description,
 .mariah-deen-description {
   position: absolute;
-  width: 14.5svw;
-  height: 33svh;
+  width: 13svw;
+  height: 30svh;
   background-color: #f47321;
   color: #fff;
 }
@@ -271,17 +271,17 @@ h1 {
 
 .hannah-mayer-description {
   bottom: 15svh;
-  left: 36.5svw;
+  left: 35svw;
 }
 
 .james-dillon-description {
-  bottom: 23svh;
-  right: 33.7svw;
+  bottom: 26svh;
+  right: 38.2svw;
 }
 
 .mariah-deen-description {
   bottom: 15svh;
-  right: 19.3svw;
+  right: 25.2svw;
 }
 
 .anna-johnson,
@@ -324,13 +324,15 @@ h1 {
 }
 
 /* Styling social networks icons */
-.fa {
-  /* padding: 2; */
-  font-size: 100px;
-  /* width: 50px; */
-  text-align: right;
-  text-decoration: none;
+.fa-brands {
+  position: relative;
+  top: 1svh;
+  left: 9svw;
+  font-size: 2rem;
+  color: #0866ff;
+  background-color: #fff;
 }
+
 /*----- SERVICES PAGE SECTION ----- */
 .services {
   width: 100svw;
@@ -478,12 +480,18 @@ h1 {
 
 .contactUs {
   position: absolute;
-  width: 50svw;
-  height: 80svh;
+  width: 40svw;
+  height: 85svh;
   top: 17svh;
-  left: 26svw;
+  left: 30svw;
   background-color: rgb(255, 255, 255, 0.9);
-  border: 5px solid red;
+}
+
+.contactUs-heading {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  line-height: 5rem;
+  font-weight: 600;
 }
 
 .address,
@@ -492,8 +500,18 @@ h1 {
 }
 
 .address {
-  top: 7svh;
-  left: 10svw;
+  top: 2svh;
+  left: 5svw;
+}
+
+.address > p,
+span,
+a {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  color: #3c3b3b;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .map {
