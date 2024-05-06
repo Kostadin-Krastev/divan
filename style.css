@@ -1,7 +1,6 @@
 html,
 body {
-  font-family: "CoolveticaRg-CoolveticaRg-times normal-Regular V2", "Ariel",
-    "sans-serif";
+  font-family: "CoolveticaRg-Regular+V2", "Ariel", "sans-serif";
 }
 
 /* ----- HOME PAGE SECTION ----- */
@@ -45,7 +44,7 @@ h1 {
 .services-heading,
 .gallery-heading,
 .contact-heading {
-  font-size: 4em;
+  font-size: 4rem;
   text-transform: uppercase;
   color: #f47321;
 }
@@ -71,7 +70,7 @@ h1 {
 .gallery-slogan,
 .contact-slogan {
   padding-bottom: 0.4svh;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 /* ----- MAIN MENU ----- */
@@ -460,4 +459,44 @@ h1 {
 .beds img {
   border-right: 1svw solid #f47321;
   border-bottom: 1.9svh solid #f47321;
+}
+
+/* ----- CONTACT US PAGE SECTION ----- */
+.contact {
+  position: relative;
+  width: 100svw;
+  height: 100svh;
+}
+
+.background-contactUs {
+  background: #fff url(./images/ContactUs-page/img-contact-us-background.jpg);
+  height: 100svh;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.contactUs {
+  position: absolute;
+  width: 50svw;
+  height: 80svh;
+  top: 17svh;
+  left: 26svw;
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 5px solid red;
+}
+
+.address,
+.map {
+  position: absolute;
+}
+
+.address {
+  top: 7svh;
+  left: 10svw;
+}
+
+.map {
+  bottom: 7svh;
+  left: 10svw;
 }
