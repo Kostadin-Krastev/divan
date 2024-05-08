@@ -504,14 +504,26 @@ h1 {
   left: 5svw;
 }
 
-.address > p,
-span,
-a {
+.address p {
   font-family: sans-serif;
   font-size: 1.3rem;
   color: #3c3b3b;
-  text-decoration: none;
   font-weight: 400;
+}
+
+.address span {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  color: #3c3b3b;
+  font-weight: 400;
+}
+
+.address a {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  color: #3c3b3b;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .map {
