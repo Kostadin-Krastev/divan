@@ -1,6 +1,7 @@
 html,
 body {
   font-family: "CoolveticaRg-Regular V2", "Ariel", "sans-serif";
+  scroll-behavior: smooth;
 }
 
 /* ----- HOME PAGE SECTION ----- */
@@ -126,13 +127,28 @@ h1 {
   margin-bottom: -1svh;
 }
 
+.article1-news {
+  margin-top: 5vh;
+}
+
+.article2-news {
+  margin-top: 10vh;
+}
+
+.article3-news {
+  margin-top: 18vh;
+}
+
 .img-article1-news,
 .img-article3-news {
+  float: left;
+  margin-left: 8vw;
   border-right: 2.5em solid #f47321;
   border-bottom: 2.5em solid #f47321;
 }
 
 .img-article2-news {
+  float: right;
   margin-right: 8svw;
   border-left: 2.5em solid #f47321;
   border-bottom: 2.5em solid #f47321;
@@ -146,6 +162,17 @@ h1 {
   background-color: #f47321;
 }
 
+.title-article1-news,
+.title-article3-news {
+  width: 100svw;
+  border: 5px solid red;
+}
+
+.title-article2-news {
+  width: 77svw;
+  text-align: right;
+}
+
 .paragraph-article1-news,
 .paragraph-article2-news,
 .paragraph-article3-news {
@@ -156,86 +183,19 @@ h1 {
   line-height: 2.5rem;
 }
 
+.paragraph-article2-news {
+  padding-left: 2svw;
+}
+
 .link-article1-news,
 .link-article2-news,
 .link-article3-news {
   color: #f47321;
 }
 
-/* positioning article images, headings and paragraphs */
-.article1-news,
-.article2-news,
-.article3-news {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-.img-article1-news,
-.title-article1-news,
-.paragraph-article1-news,
-.title-article2-news,
-.paragraph-article2-news,
-.img-article2-news,
-.img-article3-news,
-.title-article3-news,
-.paragraph-article3-news {
-  position: absolute;
-}
-
-.img-article1-news {
-  top: 10svh;
-  left: 10svw;
-}
-
-.title-article1-news {
-  top: 10svh;
-  left: 25.6svw;
-  width: 74svw;
-}
-
-.paragraph-article1-news {
-  top: 15svh;
-  left: 26svw;
-}
-
-.img-article2-news {
-  top: 47svh;
-  right: 5svw;
-}
-
-.title-article2-news {
-  top: 47svh;
-  right: 60svh;
-  width: 100svw;
-  text-align: right;
-}
-
-.paragraph-article2-news {
-  top: 53svh;
-  right: 27svw;
-  padding-left: 2svw;
-}
-
-.img-article3-news {
-  top: 85svh;
-  left: 10svw;
-}
-
-.title-article3-news {
-  top: 85svh;
-  left: 25.6svw;
-  width: 74svw;
-}
-
-.paragraph-article3-news {
-  top: 91svh;
-  left: 26svw;
-}
-
 .small-logo-news-section {
   position: absolute;
+  left: 0;
   bottom: 0;
 }
 /* ----- ABOUT US PAGE SECTION ----- */
@@ -463,6 +423,10 @@ h1 {
   border-bottom: 1.9svh solid #f47321;
 }
 
+/* adding image effect transform on hover */
+/* .orange-chair:hover {
+  transform: translate(10vw, 10vh);
+} */
 /* ----- CONTACT US PAGE SECTION ----- */
 .contact {
   position: relative;
