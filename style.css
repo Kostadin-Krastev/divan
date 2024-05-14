@@ -12,6 +12,10 @@ h1 {
   font-size: clamp(1rem, 4.1rem, 5rem);
   color: black;
 }
+.slogan-end {
+  color: #fff;
+}
+
 .background {
   position: relative;
   height: 100svh;
@@ -30,13 +34,22 @@ h1 {
   width: 25svw;
 }
 
+.border {
+  position: absolute;
+  top: 0;
+  right: 23vw;
+  width: 15vw;
+  height: 65vh;
+  border-left: 3.5vw solid #f47321;
+  border-bottom: 6vh solid #f47321;
+}
+
 .small-banner-home-page {
   position: absolute;
   top: 0;
   right: 0;
   height: 65svh;
   width: 38svw;
-  border-left: 3.2svw solid #f47321;
 }
 
 /* all pages headings */
@@ -114,7 +127,7 @@ h1 {
 /* ----- NEWS PAGE SECTION ----- */
 .News {
   width: 100svw;
-  height: 143svh;
+  height: 133svh;
   position: relative;
 }
 
@@ -136,7 +149,7 @@ h1 {
 }
 
 .article3-news {
-  margin-top: 18vh;
+  margin-top: 10vh;
 }
 
 .img-article1-news,
@@ -165,7 +178,6 @@ h1 {
 .title-article1-news,
 .title-article3-news {
   width: 100svw;
-  border: 5px solid red;
 }
 
 .title-article2-news {
