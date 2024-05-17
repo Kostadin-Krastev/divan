@@ -141,7 +141,9 @@ h1 {
 }
 
 .article1-news {
+  display: flow-root; /*https://css-tricks.com/display-flow-root/*/
   margin-top: 5vh;
+  margin-left: 8vh; /* отместваме целия контейнер, не img */
 }
 
 .article2-news {
@@ -155,7 +157,7 @@ h1 {
 .img-article1-news,
 .img-article3-news {
   float: left;
-  margin-left: 8vw;
+  /* margin-left: 8vw; */
   border-right: 2.5em solid #f47321;
   border-bottom: 2.5em solid #f47321;
 }
