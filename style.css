@@ -143,7 +143,7 @@ h1 {
 .article1-news {
   display: flow-root; /*https://css-tricks.com/display-flow-root/*/
   margin-top: 5vh;
-  margin-left: 8vh; /* отместваме целия контейнер, не img
+  margin-left: 8vh; /* отместваме целия контейнер, не img */
 }
 
 .article2-news {
