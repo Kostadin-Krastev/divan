@@ -126,8 +126,8 @@ h1 {
 }
 /* ----- NEWS PAGE SECTION ----- */
 .News {
-  width: 100svw;
-  height: 133svh;
+  width: 100vw;
+  height: 134vh;
   position: relative;
 }
 
@@ -143,11 +143,15 @@ h1 {
 .article1-news {
   display: flow-root;
   margin-top: 5vh;
-  margin-left: 8vw;
 }
 
 .article2-news {
-  margin-top: 10vh;
+  margin-top: 4vh;
+}
+
+.article1-news,
+.article3-news {
+  margin-left: 8vw;
 }
 
 .article3-news {
@@ -157,6 +161,7 @@ h1 {
 .img-article1-news,
 .img-article3-news {
   float: left;
+  margin-right: 2vw;
   border-right: 2.5em solid #f47321;
   border-bottom: 2.5em solid #f47321;
 }
@@ -176,11 +181,6 @@ h1 {
   background-color: #f47321;
 }
 
-.title-article1-news,
-.title-article3-news {
-  width: 100svw;
-}
-
 .title-article2-news {
   width: 77svw;
   text-align: right;
@@ -197,7 +197,7 @@ h1 {
 }
 
 .paragraph-article2-news {
-  padding-left: 2svw;
+  padding-left: 4vw;
 }
 
 .link-article1-news,
@@ -425,42 +425,227 @@ h1 {
 .beds {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10svh;
+  margin-top: 10vh;
 }
 
-.orange-chair-border {
-  height: 14vh;
-  border-right: 1svw solid #f47321;
-  border-bottom: 1.9svh solid #f47321;
+/* Added borders and hover effect to the images */
+.img-border-orange-chair {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
 }
 
-.orange-chair::before {
-  content: "";
-  display: block;
-  border: 10px solid red;
-  background-color: #0866ff;
-  width: 50px;
-  height: 20px;
-  /* border-right: 1vw solid #f47321; */
+.img-border-orange-chair:hover {
+  background-color: #f47321;
 }
 
-/* .chairs img,
-.tables img,
-.sofas img,
-.beds img {
-  border-right: 1svw solid #f47321;
-  border-bottom: 1.9svh solid #f47321;
-} */
+.img-border-orange-chair:hover .orange-chair {
+  transform: translate(1vw, 3.1vh);
+}
 
-/* adding image effect transform on hover */
-/* .orange-chair:hover {
-  transform: translate(10vw, 10vh);
-} */
+.img-border-black-chair {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-black-chair:hover {
+  background-color: #f47321;
+}
+
+.img-border-black-chair:hover .black-chair {
+  transform: translate(1vw, 3vh);
+}
+
+.img-border-green-chair {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-green-chair:hover {
+  background-color: #f47321;
+}
+
+.img-border-green-chair:hover .green-chair {
+  transform: translate(1vw, 3vh);
+}
+
+.img-border-wooden-chair {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-wooden-chair:hover {
+  background-color: #f47321;
+}
+
+.img-border-wooden-chair:hover .wooden-chair {
+  transform: translate(1vw, 3.3vh);
+}
+
+.img-border-wooden-table {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-wooden-table:hover {
+  background-color: #f47321;
+}
+
+.img-border-wooden-table:hover .wooden-table {
+  transform: translate(1vw, 3.5vh);
+}
+
+.img-border-metal-table {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-metal-table:hover {
+  background-color: #f47321;
+}
+
+.img-border-metal-table:hover .metal-table {
+  transform: translate(1vw, 3.6vh);
+}
+
+.img-border-red-table {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-red-table:hover {
+  background-color: #f47321;
+}
+
+.img-border-red-table:hover .red-table {
+  transform: translate(1vw, 3vh);
+}
+
+.img-border-tall-table {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-tall-table:hover {
+  background-color: #f47321;
+}
+
+.img-border-tall-table:hover .tall-table {
+  transform: translate(1vw, 3vh);
+}
+/* ---------------- */
+.img-border-dark-blue-sofa {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-dark-blue-sofa:hover {
+  background-color: #f47321;
+}
+
+.img-border-dark-blue-sofa:hover .dark-blue-sofa {
+  transform: translate(1vw, 3.6vh);
+}
+
+.img-border-red-sofa {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-red-sofa:hover {
+  background-color: #f47321;
+}
+
+.img-border-red-sofa:hover .red-sofa {
+  transform: translate(1vw, 3vh);
+}
+
+.img-border-light-green-sofa {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-light-green-sofa:hover {
+  background-color: #f47321;
+}
+
+.img-border-light-green-sofa:hover .light-green-sofa {
+  transform: translate(1vw, 3.1vh);
+}
+
+.img-border-black-sofa {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-black-sofa:hover {
+  background-color: #f47321;
+}
+
+.img-border-black-sofa:hover .black-sofa {
+  transform: translate(1vw, 3.4vh);
+}
+
+.img-border-two-person-white-bed {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-two-person-white-bed:hover {
+  background-color: #f47321;
+}
+
+.img-border-two-person-white-bed:hover .two-person-white-bed {
+  transform: translate(1vw, 3.1vh);
+}
+
+.img-border-two-person-black-bed {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-two-person-black-bed:hover {
+  background-color: #f47321;
+}
+
+.img-border-two-person-black-bed:hover .two-person-black-bed {
+  transform: translate(1vw, 3.5vh);
+}
+
+.img-border-one-person-white-bed {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-one-person-white-bed:hover {
+  background-color: #f47321;
+}
+
+.img-border-one-person-white-bed:hover .one-person-white-bed {
+  transform: translate(1vw, 3.3vh);
+}
+
+.img-border-one-person-black-bed {
+  border-right: 1vw solid #f47321;
+  border-bottom: 1.9vh solid #f47321;
+}
+
+.img-border-one-person-black-bed:hover {
+  background-color: #f47321;
+}
+
+.img-border-one-person-black-bed:hover .one-person-black-bed {
+  transform: translate(1vw, 3vh);
+}
+
+.beds {
+  margin-bottom: 5vw;
+}
+
 /* ----- CONTACT US PAGE SECTION ----- */
 .contact {
   position: relative;
-  width: 100svw;
-  height: 100svh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .background-contactUs {
