@@ -141,7 +141,9 @@ h1 {
 }
 
 .article1-news {
+  display: flow-root;
   margin-top: 5vh;
+  margin-left: 8vw;
 }
 
 .article2-news {
@@ -155,7 +157,6 @@ h1 {
 .img-article1-news,
 .img-article3-news {
   float: left;
-  margin-left: 8vw;
   border-right: 2.5em solid #f47321;
   border-bottom: 2.5em solid #f47321;
 }
@@ -427,13 +428,29 @@ h1 {
   margin-top: 10svh;
 }
 
-.chairs img,
+.orange-chair-border {
+  height: 14vh;
+  border-right: 1svw solid #f47321;
+  border-bottom: 1.9svh solid #f47321;
+}
+
+.orange-chair::before {
+  content: "";
+  display: block;
+  border: 10px solid red;
+  background-color: #0866ff;
+  width: 50px;
+  height: 20px;
+  /* border-right: 1vw solid #f47321; */
+}
+
+/* .chairs img,
 .tables img,
 .sofas img,
 .beds img {
   border-right: 1svw solid #f47321;
   border-bottom: 1.9svh solid #f47321;
-}
+} */
 
 /* adding image effect transform on hover */
 /* .orange-chair:hover {
